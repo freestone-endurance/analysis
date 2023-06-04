@@ -1,13 +1,15 @@
-# High Lonesome 100 Cutoff Analysis
+# Freestone Endurance Analyses
+
+## High Lonesome 100 Cutoff Analysis
 
 **Goal**: Evaluate the "fairness" of High Lonesome 100 cutoffs.
 **Timeline**: Done in 2023 prior to 2023 running.
 
-[See CutoffAnalysis2023](analyses/CutoffAnalysis2023.ipynp)
+See [CutoffAnalysis2023](analyses/CutoffAnalysis2023.ipynp)
 
-## Development
+## Development ##
 
-### Simple Setup
+### Simple Setup ###
 
 First install python dependencies:
 
@@ -15,7 +17,7 @@ First install python dependencies:
 pip install jupyterlab -r ./requirements.txt
 ```
 
-### Conda Setup
+### Conda Setup ###
 
 Create a jupyterlab conda environment with python 3.8:
 
@@ -35,6 +37,6 @@ conda install nb_conda_kernels
 ipython kernel install --user --name=cutoff-analysis
 ```
 
-### Running the Notebook
+### Running the Notebook ###
 
 Now with the environment that you installed `jupyterlab` in, run `jupyter-lab`. Then navigate to the local URL and open up the notebook!
